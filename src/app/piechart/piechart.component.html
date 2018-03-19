@@ -1,0 +1,39 @@
+
+<div id="myDIV">
+  <h3>Transaction Status</h3>
+</div>
+<div class="label">
+<!-- completed Transaction -->
+</div>
+
+<div class="data">
+  <br>
+  <br>
+  <span style="color:rgb(127,219,145)">
+    Number of Completed Transaction: {{sanctionComplete}}
+  </span>
+  <br>
+  <span style="color:rgb(255,85,107)">
+    Number of Failed Transaction:{{sancationFail+validationFail+validationPass+rollBack}}
+  </span>
+  <br><br>
+    Number of Transactions Failed due to :
+  <br>
+    Sanction Fail: {{sancationFail}}
+  <br>
+    Invalid Data :{{validationFail}}
+  <br>
+    Insufficient Balance:{{validationPass}}
+</div>
+
+<br><br><br><br>
+<div  class="grow">
+  <canvas baseChart
+          [chartType]="pieChartType"
+          [data]="pieChartData"
+          [labels]="pieChartLabels"
+          [colors] = "pieChartColors"
+          (chartHover)="chartHovered($event)"
+          (chartClick)="chartClicked($event)">
+  </canvas>      
+</div>

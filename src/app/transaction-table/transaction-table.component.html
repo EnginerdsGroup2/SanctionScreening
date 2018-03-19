@@ -1,0 +1,25 @@
+
+<div id="myDIV" style="text-align:center">
+  <h3>Transaction Details</h3>
+</div>
+<br>
+<ag-grid-angular #agGrid class="ag-theme-fresh"
+        enableColResize
+        suppressMenuHide
+        enableFilter
+        [rowSelection]="rowSelection"
+        [overlayLoadingTemplate]="overlayLoadingTemplate"
+        [columnDefs]="columnDefs"
+        [rowData]="rowData"
+        [animateRows]=true
+        [enableCellChangeFlash]="true"
+        [sendToClipboard]="sendToClipboard"
+        [rowDragManaged]="true"
+        [defaultColDef]="defaultColDef"
+        [enableSorting]="true"
+        [rowClassRules] ="rowClassRules"
+        [gridOptions]="gridOptions"
+        (selectionChanged)="onSelectionChanged($event)"
+        (gridReady)="onGridReady($event)"
+>
+</ag-grid-angular>

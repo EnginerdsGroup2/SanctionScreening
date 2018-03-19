@@ -1,0 +1,43 @@
+div{
+    width: 60%;
+    position: absolute;
+    align-self: center;  
+    display: block;
+}
+.data{
+    margin-top: 10%;
+    margin-left: 300px;
+    text-align: right;
+    font-family: Courier New, Courier, monospace;
+    color : white;
+    font-size: 25px;
+}
+
+.label{
+    margin-top: 8%;
+    color : white;
+    font-size: 15px;
+}
+.grow{
+    left: 0 ;
+    padding: 20px;
+}
+h3{
+    font-family: Courier New ;
+    color: rgba(255, 236, 255, 0.911);
+    font-size: 40px;
+    margin-left: 45%;;
+    font-weight: 600;
+    
+}
+#myDIV {
+    -webkit-animation: mymove 5s infinite; 
+    animation: mymove 5s infinite;
+}
+@-webkit-keyframes mymove {
+    50% {text-shadow: 10px 20px 30px rgb(182, 177, 189);}
+}
+
+@keyframes mymove {
+    50% {text-shadow: 10px 20px 30px rgb(190, 183, 199);}
+}

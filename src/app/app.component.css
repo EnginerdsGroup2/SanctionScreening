@@ -1,0 +1,181 @@
+h1{
+      font-family: Colonna MT Regular;
+      color: white;
+      font-size: 52px;
+      font-weight: 500;
+      text-align: left;
+      margin-top: 0;
+      margin-right: 50px;
+}
+h2{
+    margin-top: 15%;
+    color :white;
+    font-size: 50px;
+    text-align: left;
+    font-family: Times New Roman;
+    font-weight : 600; 
+}
+h6{
+    color :white;
+    font-size: 30px;
+    text-align: left;
+    font-family: Times New Roman;
+}
+h4{
+   
+    color : white;
+    font-size: 50px;
+    text-align: left;
+    font-family: Arial;
+    font-weight : 900;
+
+}
+h5{
+    color: white;
+    font-family : Courier New, Courier;
+    font-size: 23px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 5em }
+}
+.content {
+    background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+}
+.w3-bar .w3-bar-item{
+    padding:4px 16px;
+    float:left;
+    width:auto;
+    border:none;
+    display:block;
+    outline-color:black;
+}
+.w3-hide-small{
+    display:block;
+}
+.w3-top{
+    top: 0;
+    outline: none;
+    background-color:#15212f;
+    height: 10%;
+    left: 0;
+    text-align: center;
+    margin-bottom: 15px;  
+}
+.bimg{
+    background: url(http://finelifegroup.com/wp-content/uploads/2016/10/Transaction-support.jpg);
+    background-size: 1350px 700px;
+    background-position: left top ;
+    background-repeat: no-repeat;  
+}
+div{
+    width: 100%;
+    font-weight: bold;
+    text-align:center;
+}
+.pie-section{
+    height: 100%;
+    width: 100%;
+    height:669px;
+    padding:80px;
+    background : linear-gradient(to top left, #1f2022 , #595e61 );
+}
+.trans-section{
+    background : linear-gradient(to bottom right,rgb(30, 31, 32) ,rgb(57, 61, 65) );
+}
+.about-section{
+    font-family : Courier New, Courier;
+    font-size: 22px;
+    background: url(http://sptechnicalservices.com/wp-content/uploads/2016/06/city_scape5b.jpg);
+    background-size: 1350px 700px;
+    background-position: left top ;
+    background-repeat: no-repeat;
+}
+.content1 {
+    background: rgba(0, 0, 0, 0.342); /* Black background with transparency */
+    color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+}
+footer {
+    position: relative;
+    left: -80px;
+    height: 70px;
+    width: 1400px;
+    background-color: #130f0f;
+    bottom: 0%;
+    margin-top: 36%;
+    margin-left: 0%;
+    font-size: 20px;
+}
+.pull-right{
+    left: 100px;
+}
+p.copyright {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    line-height: 30px;
+    font-size: 0.9em;
+    text-align: center;
+    bottom:0;
+}
+html{
+    scroll-behavior: smooth ;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: scroll;
+} 
+p{
+    color: white;
+    font-family : Courier New, Courier;
+    font-size: 28px;
+    margin-top: 32px;
+}
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+a{
+    text-decoration:none;
+}
+.nav{
+    margin-right: 7%;
+    outline: none;
+}
+h3{
+    font-family: Times New Roman ;
+    color: wheat;
+    font-size: 50px;
+    font-weight : 600; 
+    text-align:center;
+}
+#myDIV {
+    -webkit-animation: mymoves 5s infinite; 
+    animation: mymove 5s infinite;
+}
+@-webkit-keyframes mymoves {
+    50% {text-shadow: 10px 20px 30px rgb(199, 183, 160);}
+}
+
+@keyframes mymoves {
+    50% {text-shadow: 10px 20px 30px rgb(199, 183, 160);}
+}
+
+
+
+
